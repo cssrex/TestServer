@@ -51,7 +51,7 @@ void ABasicMonsterAI::OnPossess(APawn* InPawn)
 
 void ABasicMonsterAI::Tick(float DeltaSeconds)
 {
-
+	Super::Tick(DeltaSeconds);
 }
 
 void ABasicMonsterAI::PlayerInRange(AActor* Actor)
